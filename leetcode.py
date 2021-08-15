@@ -24,7 +24,7 @@ class Solution:
         map = {}
         for i in range(len(nums)):
             x = target - nums[i]
-            if x in list(map.values()):
-                rev_dic = {k:v for v,k in map.items()}
-                return [i, rev_dic[x]]
-            else: map[i] = nums[i]
+            if x in list(map.keys()):
+                # rev_dic = {k:v for v,k in map.items()}
+                return [i, map[x]]
+            else: map[nums[i]] = i 
