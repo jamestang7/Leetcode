@@ -29,15 +29,8 @@ def convert(s, numRows):
 if __name__ == "__main__":
     print("testing result...")
     s = input("Enter a string:")
-    numRows = input("Enter an int:")
-    print(len(numRows), len(s))
-    try:
-        if len(s) == len(numRows) == 0:
-            s = 'PAYPALISHIRING'
-            numRows = 4
-    except:
-        s = input("Enter a string:")
-        numRows = int(input("Enter an int:"))
+    numRows = int(input("Enter an int:"))
+    print(numRows, len(s))
     res = convert(s, numRows)
     print("Finished")
     print("s:{}\nnumRows:{}\nresult:{}".format(s,
