@@ -20,6 +20,9 @@
 - divide and conquer
 - binary search the longest string and shrotest string
 [My Leet Code Link](https://leetcode.com/jamestang7/)
+
+5. Q6 zigzag conversion
+
 ## License
 
 MIT
